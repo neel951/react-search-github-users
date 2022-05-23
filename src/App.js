@@ -1,6 +1,7 @@
-import React from 'react';
-import { Dashboard, Login, PrivateRoute, AuthWrapper, Error } from './pages';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// Main File
+import React from 'react'
+import { Dashboard, Login, PrivateRoute, AuthWrapper, Error } from './pages'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
         </Routes>
       </Router>
     </AuthWrapper>
-  );
+  )
 }
 
-export default App;
+export default App
